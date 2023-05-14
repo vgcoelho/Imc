@@ -1,0 +1,33 @@
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fffff',
+    },
+    entrada: {
+        flexDirection: 'red',
+    },
+    input: {
+        height: 80,
+        textAlign: "center",
+        width: "50%",
+        fontSize: 50,
+        marginTop: 34,
+    },
+    button: {
+        backgroundColor: "#11111",
+    },
+    buttontext: {
+        textAlign: "center",
+        padding: 30,
+        fontSize: 25,
+        fontWeight: 'bold',
+        color: "green",
+    },
+    resultado: {
+        alignSelf: "center",
+        color: "lightgray",
+        fontSize: 45,
+        fontWeight: 'bold',
+        padding: 6,
+    },
+});
